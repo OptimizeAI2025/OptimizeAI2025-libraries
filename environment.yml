@@ -1,0 +1,10 @@
+name: optimizeai-libraries
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - notebook
+  - ipykernel
+  - numpy
+  # Add anything else you need later
