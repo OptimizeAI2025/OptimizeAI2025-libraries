@@ -1,10 +1,19 @@
 name: optimizeai-libraries
 channels:
   - defaults
-  - conda-forge
+  - conda-forge  # We use conda-forge for a wider range of packages
 dependencies:
-  - python=3.11
-  - notebook
-  - ipykernel
-  - numpy
-  # Add anything else you need later
+  - python=3.11  # Specify Python version (you can change this to 3.10, etc.)
+  - notebook  # Jupyter Notebook for interactive environments
+  - ipykernel  # For using Jupyter Notebooks with this environment
+  - numpy  # For numerical operations (adjust as necessary)
+  - pandas  # Optional: if you need data manipulation support
+  - scipy  # Optional: for scientific computations
+  - matplotlib  # Optional: for plotting and visualizations
+  - pip  # To install pip packages
+  - setuptools  # For building Python packages (useful for packaging your library)
+  - pytest  # For testing (add more test libraries if needed)
+  - jupyterlab  # Optional: JupyterLab interface, recommended for more features
+  - pip:
+      - pathlib  # Optional: If you want modern path handling (built-in in Python 3.4+ but sometimes useful to explicitly add)
+

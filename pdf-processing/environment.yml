@@ -1,4 +1,4 @@
-name: library-data-utils
+name: pdf-processing
 channels:
   - defaults
   - conda-forge

@@ -1,4 +1,4 @@
-name: library-modeling-tools
+name: my-awesome-library
 channels:
   - defaults
   - conda-forge
